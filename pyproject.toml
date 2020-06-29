@@ -1,0 +1,7 @@
+[tool.black]
+# The option keys are the same as long names of options on the command line.
+line-length = 119
+target-version = ['py36']
+skip-string-normalization = true
+
+exclude = '/(data|\.git|\.venv|migrations|festicket\/static|node_modules)/'

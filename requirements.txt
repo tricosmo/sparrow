@@ -1,0 +1,15 @@
+flask
+requests
+
+# testing
+pytest
+pytest-cov
+locust
+
+# linting
+black
+flake8-isort
+flake8
+pylint
+pre-commit
+ipython
