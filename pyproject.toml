@@ -4,4 +4,4 @@ line-length = 119
 target-version = ['py36']
 skip-string-normalization = true
 
-exclude = '/(data|\.git|\.venv|migrations|festicket\/static|node_modules)/'
+exclude = '/(data|\.git|\.venv)/'
