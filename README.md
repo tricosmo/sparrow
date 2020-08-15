@@ -1,6 +1,17 @@
-# sparrow
+```
+#####  ######     #    ######  ######  ####### #     # 
+#     # #     #   # #   #     # #     # #     # #  #  # 
+#       #     #  #   #  #     # #     # #     # #  #  # 
+ #####  ######  #     # ######  ######  #     # #  #  # 
+      # #       ####### #   #   #   #   #     # #  #  # 
+#     # #       #     # #    #  #    #  #     # #  #  # 
+ #####  #       #     # #     # #     # #######  ## ##  
+```                                                     
 
-This is a quick starter Python project. It aims to have following features.
+# Overview
+This is a quick starter Python project which aims to have all essiential DevOps parts and simple API with minimum code.
+
+# Features
 1. Linting
 2. Unittest
 3. Code coverage
@@ -12,4 +23,3 @@ This is a quick starter Python project. It aims to have following features.
 9. Swagger UI
 10. Release tag versioning
 11. Key Vault access (optional)
-
