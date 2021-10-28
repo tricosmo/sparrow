@@ -1,6 +1,6 @@
 VIRTUAL_ENV_PATH := .venv
 VIRTUAL := . $(VIRTUAL_ENV_PATH)/bin/activate &&
-PYTHON_EXE := /usr/local/bin/python3
+PYTHON_EXE := /usr/bin/python3
 .PHONY : venv setup run clean test
 
 setup: $(VIRTUAL_ENV_PATH)/bin/activate

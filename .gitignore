@@ -1,3 +1,7 @@
+.vagrant
+.bash_history
+.DS_Store
+.gnupg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

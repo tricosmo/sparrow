@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "almenon.arepl",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "redhat.vscode-yaml",
+        "mhutchie.git-graph",
+        "eamodio.gitlens"
+    ]
+}

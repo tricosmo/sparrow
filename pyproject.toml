@@ -1,7 +1,51 @@
-[tool.black]
-# The option keys are the same as long names of options on the command line.
-line-length = 119
-target-version = ['py36']
-skip-string-normalization = true
+[tool.poetry]
+name = "sparrow"
+version = "0.1.0"
+description = "Python template projects"
+authors = ["Victor Liu <phenome321@gmail.com>"]
+license = "MIT"
 
-exclude = '/(data|\.git|\.venv)/'
+[tool.poetry.dependencies]
+python = "^3.9"
+dash = "^2.0.0"
+fastapi = "^0.70.0"
+fastapi-admin = "^1.0.3"
+pandas = "^1.3.4"
+plotly = "^5.3.1"
+requests = "^2.26.0"
+uvicorn = "^0.15.0"
+weasyprint = "^53.3"
+
+[tool.poetry.dev-dependencies]
+bandit = "^1.7.0"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+ipython = "^7.28.0"
+isort = "^5.9.3"
+mypy = "^0.910"
+pre-commit = "^2.15.0"
+pylint = "^2.11.1"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+known_third_party = ["sparrow"]
+
+[tool.black]
+line-length = 129
+
+[tool.pylint.'MESSAGES CONTROL']
+max-line-length = 129
+disable = ["C0114", "C0115", "C0116", "W1114"]
+
+# This section is not effective due to flake8 is not supporting
+# pyproject.toml yet, flake8 config is in .flake8 file
+[tool.flake8]
+max-line-length = 129
+
+[tool.mypy]
+ignore_missing_imports = true
